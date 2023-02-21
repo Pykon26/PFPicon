@@ -64,7 +64,7 @@
 }
 
 .mismarcas {
-  background-image: linear-gradient(rgb(47, 218, 161), #ffffff);
+  background-image: linear-gradient(rgb(47, 218, 161), #dcdbd7);
 }
 
 h3 {
@@ -218,11 +218,10 @@ footer a {
 }
 .paginaNosotros {
   padding: 0;
-  height: 2400px;
+  height: 100%;
   width: 100%;
   background-image: url(./img/local.jpg);
   padding-top: 50px;
-  font-family: "Contrail One", cursive;
 }
 .paginaNosotros .container {
   width: 100%;
@@ -244,6 +243,30 @@ footer a {
   text-align: center;
   background-color: #ff8097;
   margin-bottom: 25px;
+  font-family: "Contrail One", cursive;
+}
+.paginaNosotros .textonosotros h2 {
+  font-family: "Nosifer", cursive;
+}
+.paginaNosotros .textonosotros p {
+  text-align: center;
+  color: white;
+  font-family: "Contrail One", cursive;
+  font-size: 20px;
+  text-decoration: underline solid 4px wheat;
+}
+.paginaNosotros .textoanimado {
+  animation-name: traslado;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes traslado {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .paginaubicacion {

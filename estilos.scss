@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -71,7 +72,7 @@ background-color: rgba(0, 0, 0, 0.726);
   }
 
 .mismarcas{
-    background-image: linear-gradient( rgb(47, 218, 161), #ffffff);
+    background-image: linear-gradient( rgb(47, 218, 161), #dcdbd7);
 
 }
   h3{
@@ -204,6 +205,7 @@ footer{
     .videocontacto video {
       width: 100%;
       height: auto;
+
     }
   }
 
@@ -248,11 +250,10 @@ footer{
 
 .paginaNosotros{
   padding: 0;
-  height: 2400px  ;
+  height: 100%  ;
   width: 100%;
   background-image: url(./img/local.jpg);
   padding-top: 50px;
-  font-family: 'Contrail One', cursive;
 
     
     .container {
@@ -278,8 +279,40 @@ footer{
       text-align: center;
       background-color: #ff8097;
       margin-bottom: 25px;
+      font-family: 'Contrail One', cursive;
+
+    }
+
+    .textonosotros{
+      h2{
+        font-family: 'Nosifer', cursive;
+        
+      }
+      p{
+        text-align: center;
+        color: white;
+        font-family: 'Contrail One', cursive;
+        font-size: 20px;
+        text-decoration: underline solid 4px wheat; 
+
+      }
     }
     
+    .textoanimado{
+      animation-name: traslado;
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out;
+
+      @keyframes traslado{
+        0%{
+          opacity: 0%;
+        }
+        100%{
+          opacity: 100%;
+        }
+
+      }
+    }
 }
 
 
@@ -353,7 +386,7 @@ padding-bottom: 50px;
       width: 100%;
       display: block;
       margin: auto;
-   
+      
   }
   
 }
