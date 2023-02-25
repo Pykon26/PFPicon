@@ -1,0 +1,66 @@
+.paginaNosotros{
+    padding: 0;
+    height: 100%  ;
+    width: 100%;
+    background-image: url(../img/local.jpg);
+    padding-top: 50px;
+  
+      
+      .container {
+        width: 100%;
+        align-items: center;
+      }
+  
+      .row-manifiesto {
+        display: flex;
+        justify-content: center;
+      }
+  
+      .col-sm-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+      }
+  
+      h2 {
+        margin-top: 0px;
+        color: $color5;
+        text-align: center;
+        background-color: $color4;
+        margin-bottom: 25px;
+        font-family: $font1;
+  
+      }
+  
+      .textonosotros{
+        h2{
+          font-family: $font2;
+          
+        }
+        p{
+          text-align: center;
+          color: white;
+          font-family: $font1;
+          font-size: 20px;
+          text-decoration: underline solid 4px wheat; 
+  
+        }
+      }
+      
+      .textoanimado{
+        animation-name: traslado;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+  
+        @keyframes traslado{
+          0%{
+            opacity: 0%;
+          }
+          100%{
+            opacity: 100%;
+          }
+  
+        }
+      }
+  }

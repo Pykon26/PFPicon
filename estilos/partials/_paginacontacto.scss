@@ -1,0 +1,77 @@
+.contacpagina{
+    height: 90%;
+    background-image: url(../img/bienvenido.jpg);
+    
+    
+      .contacto{
+        height: 100%;
+        margin-top: 150px;
+        font-family: $font1;
+        text-align: center;
+        font-size: 26px;
+          
+        .formularios{
+            margin-top: 100px;
+            background-color: rgba(0, 0, 0, 0.884);
+            border-radius: 25px;
+            padding: 20px;
+              h3{
+                color: $color3 ;
+                text-decoration: underline solid 4px wheat; 
+              }
+              label{
+                color: wheat;
+                
+              }
+    
+              select {
+                background-color: $color2;
+                border: 0;
+              }
+    
+              input{
+                background-color: $color2;
+                border: 0;
+              }
+              option{
+                background-color: $color2;
+                border: 0;
+    
+              }
+          }
+          .contactanos{
+            background-color: rgba(0, 0, 0, 0.884);
+            border-radius: 25px;
+              span{
+                color: $color3;
+              }
+              p{
+                color: wheat;
+              }
+            }
+    
+      }
+    
+      .videocontacto{
+        height: 100vh;
+        .videofresco{
+          height: 100%;
+          video{
+            height: 90%;
+            background-color:black  ;
+            border: ridge   10px $color3;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+    
+      }
+    
+    
+    }

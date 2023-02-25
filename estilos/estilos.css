@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cambo&family=Contrail+One&family=Galada&family=Knewave&family=Lobster&family=Monoton&family=Nosifer&family=Poppins:ital,wght@1,700&family=Rubik+Mono+One&family=Vollkorn+SC:wght@900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +39,7 @@
 .nav-item a:hover {
   transition: 0.8s;
   font-size: 28px;
-  color: rgb(47, 218, 161);
+  color: #2fdaa1;
 }
 
 #navgedadorentero {
@@ -49,7 +50,7 @@
 
 .jumbotron {
   background-color: #ffe467;
-  background-image: linear-gradient(#ffe467, rgb(47, 218, 161));
+  background-image: linear-gradient(#ffe467, #2fdaa1);
   border-radius: 0%;
   margin: 0;
   text-align: center;
@@ -60,7 +61,7 @@
   font-size: 2em;
   color: #331a38;
   font-family: "Nosifer", cursive;
-  text-shadow: 20px 0 0 rgb(30, 233, 165);
+  text-shadow: 20px 0 0 #1ee9a5;
 }
 .jumbotron p {
   font-family: "Poppins", sans-serif;
@@ -68,7 +69,7 @@
 }
 
 .mismarcas {
-  background-image: linear-gradient(rgb(47, 218, 161), #dcdbd7);
+  background-image: linear-gradient(#2fdaa1, #dcdbd7);
   margin: 0;
   text-align: center;
   font-family: "Lobster", cursive;

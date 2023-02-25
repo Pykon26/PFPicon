@@ -1,0 +1,69 @@
+.jumbotron{
+    background-color: $color1;
+    background-image: linear-gradient( $color1, $color2);
+    border-radius: 0%;
+    margin: 0;
+    text-align: center;
+    color: #43b5a0;
+    max-width: 100%;
+    
+    h1{
+      font-size: 2em;
+      color: #331a38  ;
+      font-family: $font2;
+      text-shadow: 20px 0 0 #1ee9a5;
+    }
+
+    p{
+      font-family: $font4;
+      font-weight: 500;
+    }
+  }
+
+.mismarcas{
+    background-image: linear-gradient( $color2, #dcdbd7);
+    margin: 0;
+    text-align: center;
+    font-family: $font3;
+    height: 100px;
+  }
+  
+  
+  .carousel-inner img{
+      max-width: 400px;
+      margin: 0;
+      background-color: #f8ffb8;   
+      border: black solid 2px;    
+      border-radius: 50%;
+      display: flex;
+      margin: auto;
+      margin-top: 100px;
+  }
+
+  .carousel-inner {
+      justify-content: center;
+      height: 600px; /* Altura deseada para el carrusel */
+      background-image: url(../img/Fresh.jpg);
+      background-size: 100% 100%;
+      background-position: center;
+  }
+
+  @media only screen and (max-width: 780px) {
+      .carousel-inner{
+        background-size: 90% 100%;
+
+      }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .carousel-inner{
+      background-size: 90% 70%;
+
+    }
+    .carousel-inner img{
+      width: 70%;
+      margin-top: 150px;
+    }
+    
+  }
+    

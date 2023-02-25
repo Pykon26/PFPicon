@@ -1,0 +1,48 @@
+.navbar{
+    background-color: $color1;
+    color: black;
+    font-size: 20px;
+    font-family: $font1;
+
+    a{
+      color: black;
+    }
+
+    span{
+      text-decoration: underline;
+    }
+}
+.navbar-toggler{
+
+background-color: rgba(0, 0, 0, 0.726);    
+
+    i{
+      color: white;
+      font-size: 30px; 
+      }
+      
+ }    
+ 
+.imagenlogo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button span{
+
+    color: black;
+    background-color: coral;
+  }
+
+  .nav-item a:hover{
+    transition: 0.8s;
+    font-size: 28px;
+    color: $color2;
+
+  }
+
+  #navgedadorentero{
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center; 
+  }

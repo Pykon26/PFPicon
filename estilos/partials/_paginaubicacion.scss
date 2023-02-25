@@ -1,0 +1,31 @@
+
+.paginaubicacion{
+    height: 100%;
+    width: 100%;
+    background-image:url(../img/244404656_1482458862121576_9093992704945517272_n.jpeg) ;
+    background-size: contain;
+    padding-top: 20px;
+    font-family: $font1;
+  
+   h2 {
+    color: rgb(231, 171, 59);
+    font-family: $font2;
+   }
+  p { 
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+    font-size: 30px;
+    background-color: #ad2424;  
+    text-decoration: underline solid 5px;
+  }
+  h5 {
+    margin: 50px;
+    color:  white;
+    text-decoration: underline wavy 3px wheat ;
+  }
+  .mapa{
+  padding-bottom: 50px;
+  }
+  
+  }
