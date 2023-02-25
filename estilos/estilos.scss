@@ -53,16 +53,21 @@ background-color: rgba(0, 0, 0, 0.726);
     text-align: center; 
   }
 
+
   .jumbotron{
     background-color: #ffe467;
     background-image: linear-gradient( #ffe467, rgb(47, 218, 161));
     border-radius: 0%;
     margin: 0;
     text-align: center;
+    color: #43b5a0;
+    max-width: 100%;
     
     h1{
-      font-family:'Contrail One';
-      text-shadow: 20px 0 0 rgb(30, 233, 165)
+      font-size: 2em;
+      color: #331a38  ;
+      font-family: 'Nosifer', cursive;
+      text-shadow: 20px 0 0 rgb(30, 233, 165);
     }
 
     p{
@@ -73,21 +78,55 @@ background-color: rgba(0, 0, 0, 0.726);
 
 .mismarcas{
     background-image: linear-gradient( rgb(47, 218, 161), #dcdbd7);
-
-}
-  h3{
+    margin: 0;
+    text-align: center;
+    font-family: 'Lobster', cursive;
     height: 100px;
-    text-align: left;
-    padding-right: 70px;
-    font-family: 'Poppins', sans-serif, cursive;
+  }
   
+  
+  .carousel-inner img{
+      max-width: 400px;
+      margin: 0;
+      background-color: #f8ffb8;   
+      border: black solid 2px;    
+      border-radius: 50%;
+      display: flex;
+      margin: auto;
+      margin-top: 100px;
   }
 
+  .carousel-inner {
+      justify-content: center;
+      height: 600px; /* Altura deseada para el carrusel */
+      background-image: url(../img/Fresh.jpg);
+      background-size: 100% 100%;
+      background-position: center;
+  }
 
+  @media only screen and (max-width: 780px) {
+      .carousel-inner{
+        background-size: 90% 100%;
+
+      }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .carousel-inner{
+      background-size: 90% 70%;
+
+    }
+    .carousel-inner img{
+      width: 70%;
+      margin-top: 150px;
+    }
+    
+  }
+    
 footer{
     height: 110px;
     width:  100% ;
-    background-color: rgb(47, 218, 161);
+    background-color: #2fdaa1;
     font-size: 20px;
     margin: 0;
     font-family: 'Contrail One', cursive;
@@ -100,159 +139,94 @@ footer{
     }
 }
 
-.img-rem{
+//Pagina contacto inicio
 
-    background-image: url(./img/remera.jpg);
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #ffe467;
 
-}
+.contacpagina{
+height: 90%;
+background-image: url(../img/bienvenido.jpg);
 
-.titulo-rem{
-    background-color: #f3c807;
-    background-image: url(./img/fondoProductos.jpg);
-    background-size: contain;
-    
-    padding-top: 200px;
-    text-align: center;
-    font-family:'Contrail One';
-    text-shadow: 20px 0 0 rgb(0, 0, 0);   
-    color: white;
 
-    :hover{
-      transition: 2.0s;
-      color: rgb(47, 218, 161);
-    }
-}
-
-.img-buzo{
-       background-image: url(./img/buzo.jpg);
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #ffe467;
-
-}
-
-.img-pantoles{
-    background-image: url(./img/pantalon.jpg);
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #ffe467;
-
-}
-
-.img-gorra{
-    background-image: url(./img/gorra.jpg);
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #ffe467;
-
-}
-
-.carousel-inner img{
-    max-width: 400px;
-    height: auto;
-    margin: 0;
-    background-color: #f8ffb8;   
-    border: black solid 2px;    
-    border-radius: 50%;
-}
-
-.carousel-inner {
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    height: 600px; /* Altura deseada para el carrusel */
-    background-image: url(./img/Fresh.jpg);
-    background-size: 100% 100%;
-    padding-right: 280px;
-    background-position: center;
-  }
-  
-  
-  @media (max-width: 767px) {
-    .carousel-inner img {
-      width: 300px;
-      height: 100vh;
-      max-width: none;
-    }
-  }
-
-  .contacpagina{
-    height: 100vh;
-    background-image: url(./img/bienvenido.jpg);
+  .contacto{
+    height: 100%;
+    margin-top: 150px;
     font-family: 'Contrail One', cursive;
     text-align: center;
-    background-position: center;
+    font-size: 26px;
+      
+    .formularios{
+        margin-top: 100px;
+        background-color: rgba(0, 0, 0, 0.884);
+        border-radius: 25px;
+        padding: 20px;
+          h3{
+            color: #f52f03 ;
+            text-decoration: underline solid 4px wheat; 
+          }
+          label{
+            color: wheat;
+            
+          }
 
-  }
-  @media only screen and (max-width: 780px) {
-    .videocontacto .video-container {
-      width: 100%;
-      max-width: 300px;
-      margin: 0 auto;
-    }
-    .videocontacto video {
-      width: 100%;
-      height: auto;
+          select {
+            background-color: #2fdaa1;
+            border: 0;
+          }
 
-    }
+          input{
+            background-color: #2fdaa1;
+            border: 0;
+          }
+          option{
+            background-color: #2fdaa1;
+            border: 0;
+
+          }
+      }
+      .contactanos{
+        background-color: rgba(0, 0, 0, 0.884);
+        border-radius: 25px;
+          span{
+            color:#f52f03;
+          }
+          p{
+            color: wheat;
+          }
+        }
+
   }
 
   .videocontacto{
-    margin: 0;
-    // background-color: #dfdcd7;
-  }
-
-  .contacto{
-    // background-image: url(./img/bienvenido.jpg);
-    // font-family: 'Contrail One', cursive;
-    // text-align: center;
-    // background-position: center;
-    
-
-    span{
-      text-align: center;
-      width: auto;
-      color: rgb(245, 47, 3);
-      font-size: 35px;
-       }
-    p{
-      font-size: 30px;
+    height: 100vh;
+    .videofresco{
+      height: 100%;
+      video{
+        height: 90%;
+        background-color:black  ;
+        border: ridge   10px #f52f03;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+      }
     }
+
   }
-.contactanos{
-  margin-top: 300px;
-  border-radius: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #ffffff80;
-}
-@media only screen and (max-width: 780px) {
-  .contactanos {
-    margin-top: 0;
-  }
-}
 
 
+}
+
+//Pagina nosotros inicio
 
 .paginaNosotros{
   padding: 0;
   height: 100%  ;
   width: 100%;
-  background-image: url(./img/local.jpg);
+  background-image: url(../img/local.jpg);
   padding-top: 50px;
 
     
@@ -314,29 +288,35 @@ footer{
       }
     }
 }
+//Pagina nosotros fin
 
+
+//Pagina ubicacion inicio
 
 .paginaubicacion{
   height: 100%;
   width: 100%;
-  background-image:url(./img/244404656_1482458862121576_9093992704945517272_n.jpeg) ;
+  background-image:url(../img/244404656_1482458862121576_9093992704945517272_n.jpeg) ;
   background-size: contain;
   padding-top: 20px;
   font-family: 'Contrail One', cursive;
 
  h2 {
   color: rgb(231, 171, 59);
+  font-family: 'Nosifer', cursive;
  }
 p { 
   color: white;
   text-align: center;
   margin-bottom: 150px;
   font-size: 30px;
-  background-color: rgb(173, 36, 36);  
+  background-color: #ad2424;  
+  text-decoration: underline solid 5px;
 }
 h5 {
   margin: 50px;
-  color: #dfdcd7;
+  color:  white;
+  text-decoration: underline wavy 3px wheat ;
 }
 .mapa{
 padding-bottom: 50px;
@@ -344,11 +324,12 @@ padding-bottom: 50px;
 
 }
 
+//Pagina ubicacion fin
 
-
+//Pagina productos fin
 
 .ropa{
-  background-image: url(./img/buenas.jpg);
+  background-image: url(../img/buenas.jpg);
   background-position: center;
 
 }
@@ -363,16 +344,9 @@ padding-bottom: 50px;
   border-radius: 7%;
  
 
-  .card-header{
-
-
-  }
-  .card-footer{
-
-  }
   .card-body{
     align-items: center;
-    background-image: url(./img/fondoProductos.jpg);
+    background-image: url(../img/fondoProductos.jpg);
     background-position: center;
     background-position: 100%;
     
@@ -391,3 +365,4 @@ padding-bottom: 50px;
   
 }
 }
+//Pagina productos fin

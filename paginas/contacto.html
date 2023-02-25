@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cambo&family=Contrail+One&family=Galada&family=Knewave&family=Lobster&family=Monoton&family=Nosifer&family=Poppins:ital,wght@1,700&family=Rubik+Mono+One&family=Vollkorn+SC:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../estilos/estilos.css">
     <meta name="description" content="¡Contáctanos hoy mismo y descubre lo que podemos hacer por ti! Nuestro equipo de atención al cliente estará encantado de ayudarte con cualquier consulta que tengas. Puedes llamarnos al +54 9 2613 43-7281 o escribirnos a frescoclub@info.com. ¡Esperamos saber de ti!">
     
     <title>Contacto-Frescoclub</title>
+    <link rel="icon" href="../img/logo.jpg" type="image/x-icon">
 
 </head>
 
@@ -23,7 +24,7 @@
     <nav class="navbar navbar-expand-md " id="navgedadorentero">
         <!-- Brand -->
       
-        <a class="navbar-brand" href="#">Fresco<span>Club</span></a>  
+        <a class="navbar-brand" href="../index.html">Fresco<span>Club</span></a>  
       
         
         <!-- Navbar Logo -->
@@ -66,21 +67,60 @@
   
   <main>
     
-    
     <section class="contacpagina container-fluid">
       <div class="row">
-          <div class="contacto col-sm-8">
-            <div class="contactanos">
+        <div class="contacto col-sm-6 ">
+          <div class="contactanos">
             <p>Nos pueden contactar por teléfono al <br><span>+54 9 2613 43-7281</span><br>O al correo frescoclub@info.com</p>
           </div>
+
+          <div class="formularios">
+            <form action="" method="post" enctype="text/plain" netlify>
+              <h3>Contáctate con nosotros para modelar en nuestras fotos</h3>
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre"><br>
+              <label for="">Apellido</label>
+              <input type="text"><br>
+              <label for="">Edad</label>
+              <input type="number"><br>
+              <label for="">Correo</label>
+              <input type="email"><br>
+              <label for="">Teléfono</label>
+              <input type="number"><br>
+              <label for="">Localidad:</label>
+              <select id="localidad" name="localidad">
+                <option value="ciudad">Ciudad</option>
+                <option value="guaymallen">Guaymallen</option>
+                <option value="lujan">Lujan</option>
+                <option value="las-heras">Las Heras</option>
+                <option value="godoy-cruz">Godoy Cruz</option>
+                <option value="otro">Otro</option>
+              </select><br><br>
+              <input type="submit"><br>
           </div> 
-          <div class="videocontacto col-sm-4">
-                  <div class="video-container">
-                  <video src="../img/279622403_3122838617984164_8963422499510285742_n.mp4"  controls  loop autoplay muted></video>
-                  </div>
-          </div> 
-      </div>
- 
+        </div>
+                
+
+        <div class="videocontacto col-sm-6">
+                <div class="videofresco container">
+                <video src="../img/279622403_3122838617984164_8963422499510285742_n.mp4"  controls  loop autoplay muted></video>
+                </div>
+        </div> 
+    </div> 
+
+  </section>
+    <!-- <div class="row"> -->
+          
+<!--         
+      <div class="contacto col-sm-12">
+        <div class="contactanos">
+          <p>Nos pueden contactar por teléfono al <br><span>+54 9 2613 43-7281</span><br>O al correo frescoclub@info.com</p>
+        </div>
+      </div> 
+    </div> 
+   -->
+
+
     </main>
 
   <footer>
